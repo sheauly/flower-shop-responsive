@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", serif; */
+body {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    /* margin: 0px auto; */
+    /* height: 470px; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 198, 245);
+    border-radius: 10px;
+}
+
+.flower {
+    padding: 60px;
+}
+
+.image-flower {
+    height: 500px;
+}
+
+.btn-primary {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(236, 130, 54);
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: cadetblue;
+}
+
+/* Featured Flowers */
+.flower-tree {
+    text-align: center;
+    margin: 70px;
+}
+
+.images-flower {
+    display: flex;
+    /* width: 1440px;
+height: 605px; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div>img {
+    height: 100%;
+}
+
+.yellow-flower {
+    background-color: cadetblue;
+    width: 464px;
+    height: 470px;
+    border-radius: 220px 220px 0px 0px;
+}
+
+.red-flower {
+    background-color: lightsteelblue;
+    width: 464px;
+    height: 470px;
+    border-radius: 220px 220px 0px 0px;
+}
+
+.pink-flower {
+    background-color: rgb(243, 199, 206);
+    width: 464px;
+    height: 470px;
+    border-radius: 220px 220px 0px 0px;
+    box-sizing: border-box;
+}
+
+.pink,
+.yellow,
+.red {
+    text-decoration: underline;
+}
+
+/* icon part */
+.image-icon {
+    text-align: center;
+    margin: 100px;
+    background-color: rgb(219, 244, 245);
+}
+
+.icon {
+    display: flex;
+    width: 1140px;
+    height: 320px;
+    padding: 40px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+/* deal and sale part */
+.seller {
+    text-align: center;
+    background-color: rgb(247, 221, 225);
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    /* width: 1900px; */
+    height: 350px;
+}
+
+/* instagram part */
+.instagram {
+    text-align: center;
+    margin: 50px;
+}
+
+.instagram-flower {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* get the latest part */
+.email {
+    background-color: rgb(206, 201, 239);
+    margin: 130px;
+    /* width: 1440px; */
+    height: 420px;
+}
+.lettest {
+    text-align: center;
+    padding: 30px;
+}
+
+.deals-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer part */
+footer {
+    background-color: black;
+}
+
+.flower-shop {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.shop {
+    color: red;
+}
+
+.all-right {
+    color: #474747;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .container
+     {
+        flex-direction: column;
+    }
+
+    .image-flower {
+        height: 400px;
+    }
+
+    .instagram-flower {
+        flex-direction: column;
+    }
+
+    .images-flower {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    div>img {
+        height: 100%;
+    }
+
+    .yellow-flower {
+        width: 300px;
+        height: 300px;
+    }
+
+    .red-flower {
+        width: 300px;
+        height: 300px;
+    }
+
+    .pink-flower {
+        width: 300px;
+        height: 300px;
+    }
+    .image-icon{
+        margin: 2%;
+    }
+
+    .icon {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 1%;
+    }
+    .email{
+        margin: 2%;
+        padding: 1%;
+    }
+
+    .deals-2 {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .btn-primary{
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
